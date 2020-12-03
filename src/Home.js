@@ -12,10 +12,47 @@ function Home() {
           alt=""
         />
         <div className="home__row">
-          <Product />
+          <Product
+            title="The lean startup"
+            price={1441}
+            image="https://images-eu.ssl-images-amazon.com/images/I/512+dA1m+EL._AC_SX184_.jpg"
+            rating={2}
+          />
+          <Product
+            title="The lean startup"
+            price={1441}
+            image="https://images-eu.ssl-images-amazon.com/images/I/512+dA1m+EL._AC_SX184_.jpg"
+            rating={1}
+          />
         </div>
-        <div className="home__row"></div>
-        <div className="home__row"></div>
+        <div className="home__row">
+          <Product
+            title="The lean startup"
+            price={1441}
+            image="https://images-eu.ssl-images-amazon.com/images/I/512+dA1m+EL._AC_SX184_.jpg"
+            rating={1}
+          />
+          <Product
+            title="The lean startup"
+            price={1441}
+            image="https://images-eu.ssl-images-amazon.com/images/I/512+dA1m+EL._AC_SX184_.jpg"
+            rating={1}
+          />
+          <Product
+            title="The lean startup"
+            price={1441}
+            image="https://images-eu.ssl-images-amazon.com/images/I/512+dA1m+EL._AC_SX184_.jpg"
+            rating={1}
+          />
+        </div>
+        <div className="home__row">
+          <Product
+            title="The lean startup"
+            price={1441}
+            image="https://images-eu.ssl-images-amazon.com/images/I/512+dA1m+EL._AC_SX184_.jpg"
+            rating={1}
+          />
+        </div>
       </div>
     </div>
   );
